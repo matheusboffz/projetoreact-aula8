@@ -32,3 +32,4 @@ export default function SearchBar({ searchTerm, onSearchChange, onClearSearch })
     </div>
   );
 }
+

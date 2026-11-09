@@ -35,3 +35,4 @@ export default function Navbar({ favCount, onToggleFavFilter, isFavFilterActive 
     </header>
   );
 }
+

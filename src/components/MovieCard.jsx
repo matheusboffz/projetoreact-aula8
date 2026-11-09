@@ -66,3 +66,4 @@ export default function MovieCard({ movie, isFavorite, onToggleFavorite, onOpenD
     </article>
   );
 }
+

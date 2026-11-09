@@ -29,3 +29,4 @@ export default function EmptyState({ isFavFilter, onReset }) {
     </div>
   );
 }
+
