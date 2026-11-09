@@ -1,0 +1,140 @@
+export const MOVIES_DATA = [
+  {
+    id: 1,
+    title: "Interestelar",
+    year: 2014,
+    genre: "Ficção Científica",
+    rating: 8.7,
+    duration: "2h 49m",
+    director: "Christopher Nolan",
+    synopsis: "As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receber a população mundial, possibilitando a continuação da espécie.",
+    poster: "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?auto=format&fit=crop&w=600&q=80",
+    featured: true,
+    tags: ["Espaço", "Buraco Negro", "Física", "Emoção"]
+  },
+  {
+    id: 2,
+    title: "A Origem",
+    year: 2010,
+    genre: "Ficção Científica",
+    rating: 8.8,
+    duration: "2h 28m",
+    director: "Christopher Nolan",
+    synopsis: "Dom Cobb é um ladrão com a rara habilidade de roubar segredos do inconsciente durante o estado de sono. Agora ele recebe a chance de redenção: implantar uma ideia em vez de roubá-la.",
+    poster: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80",
+    featured: true,
+    tags: ["Sonhos", "Mente", "Suspense", "Ação"]
+  },
+  {
+    id: 3,
+    title: "Batman: O Cavaleiro das Trevas",
+    year: 2008,
+    genre: "Ação",
+    rating: 9.0,
+    duration: "2h 32m",
+    director: "Christopher Nolan",
+    synopsis: "Com a ajuda do tenente Jim Gordon e do promotor Harvey Dent, Batman mantém a ordem em Gotham. Mas um criminoso sádico conhecido como Coringa traz caos psicológico à cidade.",
+    poster: "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80",
+    featured: true,
+    tags: ["Herói", "Gotham", "Coringa", "Justiça"]
+  },
+  {
+    id: 4,
+    title: "Homem-Aranha no Aranhaverso",
+    year: 2018,
+    genre: "Animação",
+    rating: 8.4,
+    duration: "1h 57m",
+    director: "Bob Persichetti, Peter Ramsey",
+    synopsis: "Miles Morales é um jovem do Brooklyn que se torna o novo Homem-Aranha. Ao ser atingido por uma teia interdimensional, ele se junta a outras versões do herói de universos paralelos.",
+    poster: "https://images.unsplash.com/photo-1635805737707-575885ab0820?auto=format&fit=crop&w=600&q=80",
+    featured: false,
+    tags: ["Multiverso", "Quadrinhos", "Estilo", "Música"]
+  },
+  {
+    id: 5,
+    title: "Parasita",
+    year: 2019,
+    genre: "Drama",
+    rating: 8.5,
+    duration: "2h 12m",
+    director: "Bong Joon-ho",
+    synopsis: "Toda a família de Ki-taek está desempregada, vivendo num porão sujo. Uma oportunidade inesperada surge quando o filho começa a dar aulas de inglês para a herdeira de uma família rica.",
+    poster: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=600&q=80",
+    featured: false,
+    tags: ["Oscar", "Suspense Social", "Coreia", "Reviravolta"]
+  },
+  {
+    id: 6,
+    title: "Oppenheimer",
+    year: 2023,
+    genre: "Drama",
+    rating: 8.9,
+    duration: "3h 00m",
+    director: "Christopher Nolan",
+    synopsis: "A história do físico norte-americano J. Robert Oppenheimer, seu papel no Projeto Manhattan durante a Segunda Guerra Mundial e o desenvolvimento da primeira arma nuclear.",
+    poster: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=600&q=80",
+    featured: true,
+    tags: ["História", "Física Quântica", "Guerra", "Biografia"]
+  },
+  {
+    id: 7,
+    title: "Duna: Parte 2",
+    year: 2024,
+    genre: "Ficção Científica",
+    rating: 8.6,
+    duration: "2h 46m",
+    director: "Denis Villeneuve",
+    synopsis: "Paul Atreides une forças com Chani e os Fremen enquanto busca vingança contra os conspiradores que destruíram sua família. Diante de uma escolha entre o amor e o destino do universo, ele deve evitar um futuro terrível.",
+    poster: "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=600&q=80",
+    featured: true,
+    tags: ["Deserto", "Profecia", "Épico", "Guerra"]
+  },
+  {
+    id: 8,
+    title: "Clube da Luta",
+    year: 1999,
+    genre: "Drama",
+    rating: 8.8,
+    duration: "2h 19m",
+    director: "David Fincher",
+    synopsis: "Um homem desiludido com sua vida corporativa e com insônia crônica conhece um misterioso vendedor de sabonetes e juntos criam um clube de lutas clandestino com regras rígidas.",
+    poster: "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?auto=format&fit=crop&w=600&q=80",
+    featured: false,
+    tags: ["Psicologia", "Crítica Social", "Cult", "Reviravolta"]
+  },
+  {
+    id: 9,
+    title: "Spirited Away: A Viagem de Chihiro",
+    year: 2001,
+    genre: "Animação",
+    rating: 8.6,
+    duration: "2h 05m",
+    director: "Hayao Miyazaki",
+    synopsis: "Chihiro, uma menina de 10 anos, e seus pais estão se mudando para uma nova cidade. Ao pegarem um atalho, descobrem um parque temático abandonado que esconde um mundo espiritual fascinante e perigoso.",
+    poster: "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=600&q=80",
+    featured: false,
+    tags: ["Studio Ghibli", "Fantasia", "Japão", "Clássico"]
+  },
+  {
+    id: 10,
+    title: "Mad Max: Estrada da Fúria",
+    year: 2015,
+    genre: "Ação",
+    rating: 8.1,
+    duration: "2h 00m",
+    director: "George Miller",
+    synopsis: "Em um mundo pós-apocalíptico onde a água e o combustível são escassos, Max se alia à Imperatriz Furiosa e um grupo de rebeldes para fugir através do deserto implacável das forças de Immortan Joe.",
+    poster: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80",
+    featured: false,
+    tags: ["Pós-Apocalipse", "Perseguição", "Visual", "Ação Frenética"]
+  }
+];
+
+export const GENRES = [
+  "Todos",
+  "Ficção Científica",
+  "Ação",
+  "Drama",
+  "Animação"
+];
